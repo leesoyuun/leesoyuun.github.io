@@ -2,7 +2,7 @@ body {
   padding: 5rem 15rem 0rem 15rem;
   margin: 0 auto;
   text-align: center;
-  user-select:none
+  user-select: none;
 }
 .maintitle {
   font-weight: 600;
@@ -42,4 +42,9 @@ body {
   color: #fff;
   margin: 0 auto;
   cursor: pointer;
+}
+.go_detail:hover {
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #333;
 }
