@@ -1,0 +1,45 @@
+body {
+  padding: 5rem 15rem 0rem 15rem;
+  margin: 0 auto;
+  text-align: center;
+  user-select:none
+}
+.maintitle {
+  font-weight: 600;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.subtitle {
+  font-size: 1.1rem;
+  margin-bottom: 5rem;
+  line-height: 1.5rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.project_img {
+  width: 350px;
+  height: 200px;
+  border-radius: 16px;
+}
+.project_name {
+  font-weight: 500;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.project_description {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.go_detail {
+  border-radius: 16px;
+  background-color: #333;
+  width: max-content;
+  padding: 10px;
+  color: #fff;
+  margin: 0 auto;
+  cursor: pointer;
+}
